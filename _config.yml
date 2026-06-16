@@ -1,1 +1,5 @@
-
+locale: "en-US"
+title: "shaadana's github site" 
+description: &description "shaadana's portfolio and site" 
+baseurl: ""
+repository: "shaadana/shaadana.github.io"
