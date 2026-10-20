@@ -5,6 +5,7 @@ A static desktop portfolio for **https://shaadana.github.io/**, built with HTML,
 ## Applications
 
 - Home, Projects, Research, About me, Media Player, Resume, and Messages.
+- Messages and contact links open Gmail in a new tab. The compose form prefills the recipient, subject, and message; visitors choose when to send.
 - Browser with an editable URL bar, bookmarks, back/forward, reload, and embedded websites. LeapOnSAT opens a local project overview with a direct website link, including when its URL is entered manually. The overview is also available at `index.html#leaponsat`. Other sites that disallow framing can be opened in a new tab. Only HTTP and HTTPS addresses are accepted; scripts cannot be entered through the address bar.
 - Python Lab with three interactive output-prediction exercises, linked to Shaadana’s Python For Kids teaching. Exercises are labeled portfolio examples.
 - Community with filterable records of student mentoring, the CHS REC Room, House of Shine, and Carroll Cares.
