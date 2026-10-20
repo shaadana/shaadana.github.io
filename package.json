@@ -1,0 +1,9 @@
+{
+  "name": "shaadana-portfolio",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "start": "python3 -m http.server 4388 --bind 127.0.0.1",
+    "check": "node --check app.js && node --check desktop-apps.js"
+  }
+}
