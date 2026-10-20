@@ -2,14 +2,6 @@
 
 A static desktop portfolio for **https://shaadana.github.io/**, built with HTML, CSS, and JavaScript. No build or installation step is required.
 
-## Preview
-
-Run `npm start` (or `python3 -m http.server 4388 --bind 127.0.0.1`) from this directory, then open http://127.0.0.1:4388.
-
-## GitHub Pages
-
-The site lives at the repository root. Keep Pages configured to deploy from the `main` branch, `/ (root)`. The `.nojekyll` file tells Pages to serve these assets directly. Merge the `portfolio-desktop` branch into `main` to replace the previous homepage. The previous site is preserved under `archive/` and linked from the portfolio.
-
 ## Applications
 
 - Home, Projects, Research, About me, Media Player, Resume, and Messages.
@@ -30,9 +22,3 @@ Windows support drag, minimize, maximize, restore, and close. The Start menu pro
 - `desktop-apps.js` — Browser, Python Lab, Community, AI Governance, and Reading Room.
 - `assets/` — original resume/research downloads, icons, and locally bundled fonts with licenses.
 - `archive/` — previous GitHub portfolio.
-
-Content is grounded in the supplied resume and research reports. The research distinguishes correctness prediction from mastery and causation. Original reports remain available as Markdown downloads. Messages opens a draft addressed to `shaadana.e.rajesh@gmail.com`; it does not send email or store messages. Reading notes and wallpaper preferences are stored only in the visitor’s browser. The examples in Python Lab are fixed exercises, not a live Python interpreter.
-
-## Validation
-
-`npm run check` checks JavaScript syntax. Browser validation covers URL entry, embedded project loading, history, URL rejection, Python exercise feedback, community filters, governance dossiers, per-reading note persistence/export/undo, research controls, window controls, and responsive layouts down to 320 pixels.
