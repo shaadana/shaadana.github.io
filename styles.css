@@ -37,6 +37,32 @@
 .sat-overview{width:100%;max-width:800px;margin:0 auto;padding:35px 40px}.sat-overview .page-heading h1{font-size:48px}.sat-overview .study-facts{gap:65px;margin-bottom:8px}.sat-overview-sections{display:grid;gap:24px;margin-top:26px}.sat-overview-sections h2{font:24px Georgia;margin:0 0 10px}.sat-overview-sections p{font-size:13px;line-height:1.85;color:#6e604e;margin:0;max-width:650px}
 @media(max-width:700px){.sat-overview{padding:26px 22px}.sat-overview .page-heading h1{font-size:37px}.sat-overview .study-facts{gap:30px;justify-content:flex-start}.sat-overview-sections h2{font-size:22px}.sat-overview-sections p{font-size:12px}}
 
+/* The introduction and personal statement share the opening Home window. */
+.welcome-app .window-content{scroll-behavior:smooth}
+.personal-statement{margin:7px 33px 30px;border:1px solid #c9beaa;background:#fcf8ef}
+.statement-heading{padding:23px 26px 19px;display:flex;align-items:baseline;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;border-bottom:1px solid #d8cbb7}
+.statement-heading h2{margin:0;font:31px/1.15 Georgia;letter-spacing:-.6px;scroll-margin-top:25px}
+.statement-pdf-links{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.statement-body{padding:8px 30px 25px;max-width:710px;margin:0 auto}
+.statement-body>p{font:14px/1.9 var(--sans);color:#5f4c3b;margin:18px 0}
+.statement-body>p:first-child{font:19px/1.65 Georgia;color:#70452e;margin:20px 0 23px}
+.statement-project-links{display:flex;gap:12px 24px;align-items:baseline;flex-wrap:wrap;margin:23px 0}
+.statement-references{border-top:1px solid #d8cbb7;padding-top:20px;margin-top:24px}
+.statement-references h3{font:10px/1.5 var(--mono);color:#6e573e;text-transform:uppercase;letter-spacing:.8px;margin:0 0 12px}
+.statement-references ul{list-style:none;padding:0;margin:0;display:grid;gap:13px}
+.statement-references a{font:11px/1.8 var(--sans);overflow-wrap:anywhere}
+.statement-return{margin-top:23px}
+@media(max-width:700px){
+  .personal-statement{margin:0 20px 24px}
+  .statement-heading{padding:21px 18px 16px;gap:12px}
+  .statement-heading h2{font-size:27px;scroll-margin-top:20px}
+  .statement-pdf-links{gap:20px}
+  .statement-body{padding:4px 18px 21px}
+  .statement-body>p{font-size:13px;line-height:1.85}
+  .statement-body>p:first-child{font-size:18px;line-height:1.65}
+  .statement-project-links{gap:12px 18px}
+}
+
 /* Personal applications: teaching, community, governance, and reading. */
 @media(min-width:701px){.python-app,.community-app,.governance-app,.reading-app{height:min(700px,calc(100% - 60px));top:30px}}
 .portfolio-app-page .page-heading{margin-bottom:22px}
