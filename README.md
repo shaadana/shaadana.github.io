@@ -4,7 +4,9 @@ A static desktop portfolio for **https://shaadana.github.io/**, built with HTML,
 
 ## Applications
 
-- Home, Projects, Research, About me, Media Player, Resume, and Messages.
+- Home opens with an introduction drawn from Shaadana’s personal statement, followed by the complete statement, its references, and links to open or download the original PDF.
+- Projects, Research, About me, Media Player, Resume, and Messages.
+- Messages and contact links open Gmail in a new tab. The compose form prefills the recipient, subject, and message; visitors choose when to send.
 - Browser with an editable URL bar, bookmarks, back/forward, reload, and embedded websites. LeapOnSAT opens a local project overview with a direct website link, including when its URL is entered manually. The overview is also available at `index.html#leaponsat`. Other sites that disallow framing can be opened in a new tab. Only HTTP and HTTPS addresses are accepted; scripts cannot be entered through the address bar.
 - Python Lab with three interactive output-prediction exercises, linked to Shaadana’s Python For Kids teaching. Exercises are labeled portfolio examples.
 - Community with filterable records of student mentoring, the CHS REC Room, House of Shine, and Carroll Cares.
@@ -20,5 +22,5 @@ Windows support drag, minimize, maximize, restore, and close. The Start menu pro
 - `styles.css` — interface, responsive, reduced-motion, and print styles.
 - `app.js` — portfolio content and window management.
 - `desktop-apps.js` — Browser, Python Lab, Community, AI Governance, and Reading Room.
-- `assets/` — original resume/research downloads, icons, and locally bundled fonts with licenses.
+- `assets/` — original resume/research downloads, the personal statement PDF, icons, and locally bundled fonts with licenses.
 - `archive/` — previous GitHub portfolio.
